@@ -85,3 +85,14 @@ h1 {
     font-family: "Roboto", sans-serif;
   }
   
+footer {
+    text-align: center;
+}
+
+.github {
+    color: black;
+  }
+
+.github:hover {
+  color: #ff4c4c;
+}
