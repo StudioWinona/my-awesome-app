@@ -1,0 +1,87 @@
+h1 {
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .date {
+    font-style: italic;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(165, 160, 160);
+    margin-top: -20px;
+  }
+  .weatherunit {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .weather {
+    font-size: 20px;
+    text-align: left;
+    line-height: 10px;
+  }
+  .weather-icon {
+    text-align: left;
+  }
+  h2 {
+    text-align: right;
+    font-size: 50px;
+  }
+  .humidity {
+    font-size: 16px;
+    text-align: right;
+  }
+  .wind {
+    font-size: 16px;
+    text-align: right;
+  }
+  .card {
+    border: solid #006ec5 3px;
+    margin: 0 auto;
+    height: 9rem;
+  }
+  .form-control {
+    width: 50%;
+    border: solid #ff7043 3px;
+    background: #fee2d9;
+    margin-right: 10px;
+  }
+  .search {
+    border: solid #67c0ba 3px;
+    background: #e4f6f4;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .current {
+    border: solid #f4e711 3px;
+    background: #fcfad0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  form {
+    display: flex;
+    flex-flow: row;
+  }
+  .container {
+    width: 60%;
+    max-width: 960px;
+    margin: 25px auto;
+    display: block;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .search:hover {
+    background: #67c0ba;
+  }
+  
+  .current:hover {
+    background: #f4e711;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
