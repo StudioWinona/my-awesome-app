@@ -154,4 +154,9 @@ h1 {
   font-size: 12px;
   }
   
-  
+.netlify {
+  color: #67c0ba;
+}
+.netlify:hover {
+  color: #67c0ba;
+  }
