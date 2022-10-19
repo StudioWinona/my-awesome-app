@@ -1,162 +1,160 @@
-
-
-
-
-
 h1 {
   text-transform: uppercase;
   text-align: left;
-  }
-  .date {
+}
+
+.date {
   font-style: italic;
   text-align: left;
   font-size: 12px;
   color: rgb(165, 160, 160);
   margin-top: -20px;
-  }
-  .weatherunit {
+}
+
+.weatherunit {
   font-size: 12px;
   line-height: 1.5;
-  }
-  .weather {
+}
+
+.weather {
   font-size: 20px;
   text-align: left;
   line-height: 10px;
-  
-  }
-  .weather-icon {
-  text-align: left;
-  position: relative;
-  top: -15px;
-  right: 10px;
-  }
-  
-  h2 {
+
+}
+.weather-icon {
+text-align: left;
+position: relative;
+top: -15px;
+right: 15px;
+}
+
+h2 {
   text-align: right;
   font-size: 50px;
-  }
-  .humidity {
+}
+
+.humidity {
   font-size: 16px;
   text-align: right;
-  }
-  .wind {
+}
+
+.wind {
   font-size: 16px;
   text-align: right;
-  }
-  .card {
-  border: solid #006ec5 3px;
+}
+
+.card {
+  border: solid #006ec5 2px;
   margin: 0 auto;
   height: 7rem;
-  }
-  .form-control {
+}
+
+.form-control {
   width: 60%;
-  border: solid #ff7043 3px;
-  background: #fee2d9;
-  margin-right: 10px; 
-  }
-  .search {
-  border: solid #67c0ba 3px;
+  border: solid #000 2px;
+  margin-right: 10px;   
+}
+
+.search {
+  border: solid #67c0ba 2px;
   font-size: 14px;
   background: #e4f6f4;
   border-radius: 5px;
   padding: 5px 10px;
   margin-left: 10px;
-  }
-  .current {
-  border: solid #f4e711 3px;
+}
+
+.current {
+  border: solid #f4e711 2px;
   font-size: 14px;
-  
   background: #fcfad0;
   border-radius: 5px;
   padding: 5px 10px;
   margin-left: 10px
-  }
-  form {
+}
+
+form {
   display: flex;
   flex-flow: row;
-  }
-  .container { 
-  width: 45%;
-  max-width: 960px;
-  margin: 25px auto;
-  display: block;
-  }
-  
-  button:hover {
+}
+
+.container { 
+width: 45%;
+max-width: 960px;
+margin: 25px auto;
+display: block;
+}
+
+button:hover {
   cursor: pointer;
-  }
-  
-  .search:hover {
+}
+
+.search:hover {
   background: #67c0ba;
-  }
-  
-  .current:hover {
+}
+
+.current:hover {
   background: #f4e711;
-  }
-  
-  body {
+}
+
+body {
   font-family: 'Roboto', sans-serif;
-  }
-  
-  h2 .active {
+}
+
+h2 .active {
   color: black;
   cursor: default;
   text-decoration: none;
-  }
-  
-  h2 .active:hover {
+}
+
+
+h2 .active:hover {
   text-decoration: none;
-  }
-  
-  #celsius {
-  text-decoration: none;
-  font-size: 18px;
-  position: relative;
-  top: -22px;
-  
-  }
-  
-  #fahrenheit {
+}
+
+#celsius {
   text-decoration: none;
   font-size: 18px;
   position: relative;
   top: -22px;
-  }
-  
-  .divider {
+}
+
+#fahrenheit {
+  text-decoration: none;
   font-size: 18px;
   position: relative;
   top: -22px;
-  }
-  
-  .card-title {
+
+}
+
+.divider {
+  font-size: 18px;
+  position: relative;
+  top: -22px;
+}
+
+.card-title {
   font-style: italic;
   font-weight: normal;
   text-align: center;
-  font-size: 17px;
+  font-size: 13px;
   color: rgb(165, 160, 160);
-  }
-  
-  footer {
+}
+
+footer {
   text-align: center;
   font-size: 13px;
-  }
-  
-  .github {
-  color: #67c0ba;
-  }
-  
-  .github:hover {
-  color: #67c0ba;
-  }
-  
-  .card-text {
-  font-size: 12px;
-  }
-  
-.netlify {
-  color: #67c0ba;
 }
-.netlify:hover {
-  color: #67c0ba;
-  }
+
+.github {
+  color:  #67c0ba;
+}
+
+.github:hover {
+color: #67c0ba;
+}
+
+.card-text {
+  font-size: 12px;
+}
