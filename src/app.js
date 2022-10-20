@@ -89,6 +89,9 @@ function getCurrentLocation(event) {
 
 }
 
+<button type="button" class="current">
+          <img src="images/current.png" alt="current" width="15" /> Current
+        </button>
 
 let showCurrentPosition = document.querySelector(".current");
 showCurrentPosition.addEventListener("click", getCurrentLocation);
